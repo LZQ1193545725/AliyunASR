@@ -22,8 +22,8 @@ namespace 阿里云ASR录音文件识别
 
         public static string GetData(string oss_link)
         {
-            string ak_id = "LTAImnv3lEhh8P54"; //数加管控台获得的accessId
-            string ak_secret = "ZY4yLNwq3GclQpY0HL0cm6kTdF7ZT9"; // 数加管控台获得的accessSecret
+            string ak_id = ""; //数加管控台获得的accessId
+            string ak_secret = ""; // 数加管控台获得的accessSecret
 
 
             body.app_key = "nls-service-telephone8khz"; //简介页面给出的Appkey
